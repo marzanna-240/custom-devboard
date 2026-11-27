@@ -2,7 +2,7 @@
 title: "Custom Devboard"
 github: "https://github.com/marzanna-240/custom-devboard"
 description: "A custom devboard using the ESP32-S3-WROOM-2 Microcontroller."
-created_at: "25/11/2026
+created_at: "25/11/2026"
 total_time: ""
 ---
 
