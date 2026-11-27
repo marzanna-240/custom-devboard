@@ -17,3 +17,12 @@ So far I've got the USB receptacle, LDO regulator, LED matrix and decoupling cap
 
 **Total time spent: 2h**
 
+## 27/11/2026: <Entry no.1>
+
+Today I've finished laying down my schematic. Everything is set up and should be ready for the PCB.
+I had to create new footprints for the ESP32 and CP2102 since the ones I was using before had incorrect pinouts, then I set up all the supporting components for the CP2102 by following the ESP32 hardware documents. I've also set up the boot, reset buttons and auto programming circuit for convenience. There are now 8 designated pins for the LED matrix, I'm not sure if there's a way to do it without sacrificing the pin's GPIO functionality, since now they can only be used for the LED matrix instead of anything else, but maybe that's for a future project. For the rest of the pins there are two male header pins, one is 12x1 and the other is 20x1, each has 2 GND pins and the 12x1 header has a 3.3v pin and a 5v pin. 
+
+<img width="2495" height="1692" alt="image" src="https://github.com/user-attachments/assets/716b7dd8-f5f0-4ba9-baab-f38c0af7ec81" />
+
+**Total time spent: 3h 39m**
+
